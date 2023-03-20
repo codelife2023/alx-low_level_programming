@@ -6,11 +6,12 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-char low;
-for (low = 'a'; low <= 'z'; low++)
-	putchar(low);
-	printf("\n");
-return (0);
+int main() {
+char letter;
+for(letter = 'a'; letter <= 'z'; letter++)
+       	putchar(letter);
+for (letter = 'A'; letter <= 'Z'; letter++)
+	putchar(letter);
+	putchar('\n');
+return 0;
 }
